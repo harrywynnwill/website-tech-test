@@ -28,11 +28,16 @@ body {
   src: url(../fonts/verto3.ttf);
 }
 .wrapper {
-  padding:
+  padding: 30px 60px;
   position: absolute;
   right: 0;
 }
-
+.top-logo{
+  display: inline-block;;
+  padding: 30px 50px;
+  position: absolute;
+  height:50px;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -47,7 +52,7 @@ li {
 
 li a {
     color: white;
-    font-size: 70%;
+    font-size: 80%;
     display: block;
 
     text-align: center;
@@ -57,7 +62,8 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: #52D017;
+    opacity: 0.5;
 }
 .top-image {
   position: relative;
