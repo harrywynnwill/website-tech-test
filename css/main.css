@@ -1,23 +1,70 @@
+
+.page{
+
+  position: relative;
+}
+.figures {
+  padding: 60px
+}
+.quarter {
+  display: inline-block;
+  float: left;
+  width:25%;
+  text-align: center;
+  color: #94C23D;
+  font-size: 3em;
+}
+.quarter p {
+  font-size: 16px;
+}
+
+.button {
+  background-color:#94C23D;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: .75em;
+  font-family: verto;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#title {
+  padding: 80px 20px 20px 20px;
+
+  font-size: 3em;
+}
+#sub-title{
+  font-size: 1.25em
+}
+
+#blurb {
+  color: black;
+  padding: 40px 80px;
+    font-size: .75em
+}
+
+p{
+  margin: 8px;
+}
+
 .heading {
 
-  top: 10px;
-  float:left;
+
+  text-align: center;
+  width: 100%;
+
+  margin:0 auto;
   font-family: verto;
   font-weight: 100;
   line-height: 1;
-  color: #52D017;
+  color: #94C23D;
+
 }
-
-/*.img {
-  display:block;
-  max-width:100%;
-  min-width: 1024px;
-  height:auto;
-  width: auto;
-  position: absolute;
-
-
-}*/
 
 body {
   font-family: verto;
@@ -29,6 +76,7 @@ body {
 }
 
 .top-logo{
+
 
   padding: 30px;
   height: auto;
@@ -42,6 +90,7 @@ body {
 }
 
 .logo-words{
+  padding: 20px 20px 20px 10px;
 
   float: right;
   color: white;
@@ -61,10 +110,11 @@ body {
   position: relative;
 
 }*/
-.top-image  {
-  position: absolute;
+/*.top-image  {
 
-}
+  overflow: hidden;
+
+}*/
 .main-image img {
     width: 100%;
 }
@@ -72,9 +122,11 @@ body {
 
 
 .nav-bar{
+  right: 5px; /*newly added*/
+  top: 5px;
   padding: 30px 60px;
   position: absolute;
-  right: 0;
+  /*right: 0;*/
 }
 
 
@@ -96,14 +148,16 @@ li a {
     display: block;
 
     text-align: center;
-    padding: 30px 20px;
+    padding: 30px 10px;
     text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #52D017;
+    color: #94C23D;
+    background-color: white;
     opacity: 0.5;
+
 }
 
 
