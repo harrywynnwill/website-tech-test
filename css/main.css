@@ -167,10 +167,13 @@ li a:hover {
   top:30%;
   left:40%;
   position: absolute;
-  max-width: auto;
+  max-width:100%;
+  max-height:100%;
+  height: auto;
+  /*max-width: auto;
   max-height: auto;
   width: auto;
-  height: auto;
+  height: auto;*/
 
 /*
   vertical-align: middle;

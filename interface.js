@@ -22,6 +22,7 @@ $(document).ready(function(){
           $('.figures').fadeIn('slow');
       },3500);
 
+      
 
 
 });
