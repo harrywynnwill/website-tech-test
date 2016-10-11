@@ -110,7 +110,7 @@ li a:hover {
   width: 100%;
 }
 .home img {
-  height: 450px;
+
   width: 100%;
 
 }
@@ -279,25 +279,37 @@ position: relative;
   position: absolute;
   padding-top: 20%;
   text-align: center;
-  left:
-}
-
-
-.towan-logo img{
-
-
-
-
-
-
-
-
-
-font-weight: bold;
 
 }
 
 
+.blurb-three{
+  width: 100%;
+  position: absolute;
+  padding-top: 12%;
+  text-align: center;
+  color: white;
+
+    font-size: .75em
+}
+
+.info{
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  display: inline-block;
+
+}
+.contact {
+
+  width : 20%;
+  float: left;
+}
+
+.latest-post{
+  width: 40%;
+  float: left;
+}
 
 
 .vesta {
