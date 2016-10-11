@@ -1,13 +1,40 @@
 
-.page{
 
+.automation {
+  width: 100%;
   position: relative;
 }
+.home{
+
+
+  width: auto;
+}
+.home img {
+  width: 100%;
+}
+.phone img {
+  width: 100%;
+}
+
+.phone {
+
+   position:  absolute;
+   bottom: 0;
+   left: 37%;
+   /*margin: 0 auto;*/
+
+}
+
 .figures {
-  padding: 60px
+
+  height: 100%;
+  padding: 60px;
+   overflow:auto;
+
 }
 .quarter {
-  display: inline-block;
+
+
   float: left;
   width:25%;
   text-align: center;
@@ -38,14 +65,73 @@
 
   font-size: 3em;
 }
+.title-two {
+  padding: 60px 20px 20px 20px;
+
+  font-size: 3em;
+}
+
 #sub-title{
   font-size: 1.25em
 }
 
-#blurb {
+.blurb {
   color: black;
   padding: 40px 80px;
     font-size: .75em
+}
+#blurb-two{
+  color: black;
+  padding: 10px 80px;
+    font-size: .75em
+}
+
+.icons{
+  color: #94C23D;
+  padding: 60px 80px;
+   /*overflow:auto;*/
+
+}
+.row {
+  /*overflow:auto;*/
+
+}
+
+.row.bottom{
+padding-top: 30px;
+
+}
+.third.right img {
+  position: relative;
+  right: 20%;
+
+}
+.third.left img {
+  position: relative;
+  left: 20%;
+
+}
+
+
+.third.right p {
+  position: relative;
+  right: 20%;
+
+}
+.third.left p {
+  position: relative;
+  left: 20%;
+}
+
+.third {
+
+  text-align: center;
+  display: inline-block;
+  width: 33%;
+
+}
+.third img {
+  padding: 20px;
 }
 
 p{
@@ -82,7 +168,7 @@ body {
   height: auto;
   width: auto;
   position: absolute;
-  left: 5px; 
+  left: 5px;
   top: 5px;
   display: inline-block;
 
@@ -153,7 +239,10 @@ li a:hover {
 }
 
 
-
+.vesta {
+  padding-top: 110px;
+  text-align: center;
+}
 
 .logo img{
   top:30%;
