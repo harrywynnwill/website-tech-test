@@ -296,21 +296,56 @@ position: relative;
 .info{
   width: 100%;
   height: 100%;
-  padding: 30px;
+
   display: inline-block;
 
 }
 .contact {
-
-  width : 20%;
+  padding : 38px 0px 10px 70px;
+  width : 18%;
   float: left;
 }
+.contact.two {
+  padding: 78px 0px 0px 0px;
 
+}
+
+.info p {
+    font-size: .75em;
+}
+.social {
+  margin: 8px;
+}
+#green {
+    color: #94C23D;
+}
+
+h3 {
+  color: #94C23D;
+  margin: 8px;
+  padding-bottom: 10px;
+
+}
 .latest-post{
+  padding : 38px 0px 10px 45px;
   width: 40%;
   float: left;
 }
+.awards {
 
+text-align: right;
+
+padding: 38px 20px 0px;
+    float: left;
+}
+
+.copyright  {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-size: .5em;
+  text-align: center;
+  width: 100%;
+}
 
 .vesta {
   padding-top: 80px;
